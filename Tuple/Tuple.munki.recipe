@@ -33,7 +33,7 @@
 	<key>MiniumumVersion</key>
 	<string>1.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.williamtheaker.autopkg.download.Tuple</string>
+	<string>com.github.weswhet.download.Tuple</string>
 	<key>Process</key>
 	<array>
 		<dict>
