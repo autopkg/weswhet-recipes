@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest release of Facebook Flipper.</string>
+	<string>Downloads the latest release of Facebook Flipper. ARCH is either 'aarch64' or 'x64'.</string>
 	<key>Identifier</key>
 	<string>com.github.weswhet.download.flipper</string>
 	<key>Input</key>
@@ -12,6 +12,8 @@
 		<string>facebook/flipper</string>
 		<key>NAME</key>
 		<string>flipper</string>
+		<key>ARCH</key>
+		<string>aarch64</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
@@ -25,7 +27,7 @@
 				<key>include_prereleases</key>
 				<false/>
 				<key>asset_regex</key>
-				<string>.*mac.*</string>
+				<string>Flipper-server-mac-%ARCH%.*</string>
 			</dict>
 			<key>Processor</key>
 			<string>GitHubReleasesInfoProvider</string>
